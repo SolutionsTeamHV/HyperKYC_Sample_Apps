@@ -1,0 +1,32 @@
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 21
+        compileSdkVersion = 35  // ✅ Upgrade to 35
+        targetSdkVersion = 36   // ✅ Upgrade to 35
+        ndkVersion = "25.1.8937393"
+        kotlinVersion = "1.9.10"  // ✅ Upgrade Kotlin version
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.9.1") // ✅ Upgrade AGP version
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10") // ✅ Match Kotlin version
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = "https://s3.ap-south-1.amazonaws.com/hvsdk/android/releases"
+        }
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"

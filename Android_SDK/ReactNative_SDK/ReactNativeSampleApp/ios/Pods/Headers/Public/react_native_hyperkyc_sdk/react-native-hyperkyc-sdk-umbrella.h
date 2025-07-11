@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-hyperkyc-sdk/react-native-hyperkyc-sdk-umbrella.h

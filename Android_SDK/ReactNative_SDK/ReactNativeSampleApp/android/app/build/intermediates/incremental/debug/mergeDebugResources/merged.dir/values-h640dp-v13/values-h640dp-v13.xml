@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <dimen name="camera_preview_bottom_margin">36dp</dimen>
+    <dimen name="content_margin">24dp</dimen>
+    <dimen name="face_box_message_tv_padding_x" ns1:override="true">41dp</dimen>
+    <dimen name="face_box_message_tv_padding_y" ns1:override="true">6dp</dimen>
+    <dimen name="face_box_message_tv_text_size" ns1:override="true">16sp</dimen>
+    <dimen name="font_content_size">14sp</dimen>
+    <dimen name="font_error_content_size">13.3sp</dimen>
+    <dimen name="font_header_size">20sp</dimen>
+    <dimen name="font_small_size">10sp</dimen>
+    <dimen name="font_status_size">16sp</dimen>
+    <dimen name="font_subtitle_size">14sp</dimen>
+    <dimen name="hk_vs_large_padding">24dp</dimen>
+    <dimen name="hk_vs_small_padding">12dp</dimen>
+    <dimen name="hk_vs_statement_height">80dp</dimen>
+    <dimen name="hk_vs_top_margin">56dp</dimen>
+    <dimen name="hv_branding_bottom_margin">12dp</dimen>
+    <dimen name="hv_branding_font_size">8sp</dimen>
+    <dimen name="hv_lottie_loader_size">150dp</dimen>
+    <dimen name="margin_doc_bottom">16dp</dimen>
+    <dimen name="margin_face_circle_top">50dp</dimen>
+    <dimen name="resource_camera_size">72dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="status_camera_text_margin_left" ns1:override="true">20dp</dimen>
+    <dimen name="status_text_bottom_margin">56dp</dimen>
+    <dimen name="status_text_top_margin">56dp</dimen>
+    <dimen name="top_margin">56dp</dimen>
+</resources>

@@ -1,0 +1,518 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hkycrn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->[:react-native-fs] /Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-81
+12-->[:react-native-fs] /Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14    <!--
+15    This manifest file is used only by Gradle to configure debug-only capabilities
+16    for React Native Apps.
+17    -->
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->[com.facebook.react:react-android:0.73.11] /Users/akshayah/.gradle/caches/transforms-4/6960d0fbc26dc417bc0ebdba30273a5b/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:16:5-78
+18-->[com.facebook.react:react-android:0.73.11] /Users/akshayah/.gradle/caches/transforms-4/6960d0fbc26dc417bc0ebdba30273a5b/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:16:22-75
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:9:5-79
+19-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:10:5-71
+20-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:10:22-68
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.facebook.flipper:flipper:0.201.0] /Users/akshayah/.gradle/caches/transforms-4/f980cee84bc6efdda9b0a168dd47200e/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
+21-->[com.facebook.flipper:flipper:0.201.0] /Users/akshayah/.gradle/caches/transforms-4/f980cee84bc6efdda9b0a168dd47200e/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:13:5-65
+22-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:13:22-62
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:14:5-79
+23-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:14:22-76
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:15:5-81
+24-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:15:22-78
+25
+26    <permission
+26-->[androidx.core:core:1.16.0] /Users/akshayah/.gradle/caches/transforms-4/d5599e7f803fd1edf9b3d21eb7116567/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.hkycrn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.16.0] /Users/akshayah/.gradle/caches/transforms-4/d5599e7f803fd1edf9b3d21eb7116567/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.16.0] /Users/akshayah/.gradle/caches/transforms-4/d5599e7f803fd1edf9b3d21eb7116567/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.hkycrn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.16.0] /Users/akshayah/.gradle/caches/transforms-4/d5599e7f803fd1edf9b3d21eb7116567/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.16.0] /Users/akshayah/.gradle/caches/transforms-4/d5599e7f803fd1edf9b3d21eb7116567/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:5:5-24:19
+33        android:name="com.hkycrn.MainApplication"
+33-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:6:7-38
+34        android:allowBackup="false"
+34-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:10:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.16.0] /Users/akshayah/.gradle/caches/transforms-4/d5599e7f803fd1edf9b3d21eb7116567/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:8:7-41
+39        android:label="@string/app_name"
+39-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:7:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:9:7-52
+41        android:supportsRtl="true"
+41-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:18:18-44
+42        android:theme="@style/AppTheme"
+42-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:11:7-38
+43        android:usesCleartextTraffic="true" >
+43-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/debug/AndroidManifest.xml:6:9-44
+44        <activity
+44-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:12:7-23:18
+45            android:name="com.hkycrn.MainActivity"
+45-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:13:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+46-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:15:9-118
+47            android:exported="true"
+47-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:18:9-32
+48            android:label="@string/app_name"
+48-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:14:9-41
+49            android:launchMode="singleTask"
+49-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:16:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:17:9-51
+51            <intent-filter>
+51-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:19:9-22:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:20:13-65
+52-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:20:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:21:13-73
+54-->/Users/akshayah/Desktop/ReactNative_HyperKYC_SDK/android/app/src/main/AndroidManifest.xml:21:23-70
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[com.facebook.react:react-android:0.73.11] /Users/akshayah/.gradle/caches/transforms-4/6960d0fbc26dc417bc0ebdba30273a5b/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:19:9-21:40
+58            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+58-->[com.facebook.react:react-android:0.73.11] /Users/akshayah/.gradle/caches/transforms-4/6960d0fbc26dc417bc0ebdba30273a5b/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:20:13-77
+59            android:exported="false" />
+59-->[com.facebook.react:react-android:0.73.11] /Users/akshayah/.gradle/caches/transforms-4/6960d0fbc26dc417bc0ebdba30273a5b/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:21:13-37
+60        <activity
+60-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:18:9-24:46
+61            android:name="co.hyperverge.hyperkyc.webCore.ui.HKConfigLoadingActivity"
+61-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:19:13-85
+62            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+62-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:20:13-175
+63            android:exported="false"
+63-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:21:13-37
+64            android:launchMode="singleTop"
+64-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:22:13-43
+65            android:screenOrientation="portrait"
+65-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:23:13-49
+66            android:theme="@style/HKTheme" />
+66-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:24:13-43
+67        <activity
+67-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:25:9-32:55
+68            android:name="co.hyperverge.hyperkyc.ui.WorkflowLoadingActivity"
+68-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:26:13-77
+69            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+69-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:27:13-175
+70            android:exported="false"
+70-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:28:13-37
+71            android:launchMode="singleTop"
+71-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:29:13-43
+72            android:screenOrientation="portrait"
+72-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:30:13-49
+73            android:theme="@style/HKTheme"
+73-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:31:13-43
+74            android:windowSoftInputMode="adjustPan" />
+74-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:32:13-52
+75        <activity
+75-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:33:9-45:20
+76            android:name="co.hyperverge.hyperkyc.ui.HKMainActivity"
+76-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:34:13-68
+77            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+77-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:35:13-175
+78            android:exported="false"
+78-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:36:13-37
+79            android:screenOrientation="portrait"
+79-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:37:13-49
+80            android:theme="@style/HKTheme"
+80-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:38:13-43
+81            android:windowSoftInputMode="adjustPan" >
+81-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:39:13-52
+82            <intent-filter>
+82-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:40:13-44:29
+83                <action android:name="co.hyperverge.hyperkyc.REQUEST" />
+83-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:41:17-73
+83-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:41:25-70
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:43:17-76
+85-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:43:27-73
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:46:9-59:20
+89            android:name="co.hyperverge.hyperkyc.webCore.ui.HKWebCoreActivity"
+89-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:47:13-79
+90            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+90-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:48:13-175
+91            android:exported="false"
+91-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:49:13-37
+92            android:launchMode="singleTop"
+92-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:50:13-43
+93            android:screenOrientation="portrait"
+93-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:51:13-49
+94            android:theme="@style/HKTheme"
+94-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:52:13-43
+95            android:windowSoftInputMode="adjustResize" >
+95-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:53:13-55
+96            <intent-filter>
+96-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:40:13-44:29
+97                <action android:name="co.hyperverge.hyperkyc.REQUEST" />
+97-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:41:17-73
+97-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:41:25-70
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:43:17-76
+99-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:43:27-73
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:60:9-65:46
+103            android:name="co.hyperverge.hyperkyc.ui.HKBrowserActivity"
+103-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:61:13-71
+104            android:exported="false"
+104-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:62:13-37
+105            android:launchMode="singleTask"
+105-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:63:13-44
+106            android:screenOrientation="portrait"
+106-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:64:13-49
+107            android:theme="@style/HKTheme" />
+107-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:65:13-43
+108        <activity
+108-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:66:9-77:20
+109            android:name="co.hyperverge.hyperkyc.ui.HKRedirectionActivity"
+109-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:67:13-75
+110            android:exported="true" >
+110-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:68:13-36
+111            <intent-filter>
+111-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:69:13-76:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:70:17-69
+112-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:70:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:43:17-76
+114-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:43:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:73:17-78
+115-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:73:27-75
+116
+117                <data android:scheme="" />
+117-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:75:17-43
+117-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:75:23-40
+118            </intent-filter>
+119        </activity> <!-- For foreground service not sure if it will be used -->
+120        <!--
+121             <service
+122            android:name=".services.FileUploadService"
+123            android:label="File upload service"
+124            />
+125        -->
+126        <meta-data
+126-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:86:9-88:60
+127            android:name="hk_preloaded_fonts"
+127-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:87:13-46
+128            android:resource="@array/hk_preloaded_fonts" />
+128-->[co.hyperverge:hyperkyc:0.36.0] /Users/akshayah/.gradle/caches/transforms-4/bbca2cd49e5c3e8ac51b8356275d1594/transformed/jetified-hyperkyc-0.36.0/AndroidManifest.xml:88:13-57
+129
+130        <activity
+130-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:19:9-23:46
+131            android:name="co.hyperverge.hypersnapsdk.activities.HVRetakeActivity"
+131-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:20:13-82
+132            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+132-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:21:13-175
+133            android:screenOrientation="portrait"
+133-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:22:13-49
+134            android:theme="@style/HSTheme" />
+134-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:23:13-43
+135        <!--
+136            <activity
+137            android:name=".activities.HVDocInstructionActivity"
+138            android:configChanges="locale"
+139            android:screenOrientation="portrait"
+140            android:theme="@style/HSTheme" />
+141        -->
+142        <activity
+142-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:31:9-35:46
+143            android:name="co.hyperverge.hypersnapsdk.activities.HVDocsActivity"
+143-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:32:13-80
+144            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+144-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:33:13-175
+145            android:screenOrientation="portrait"
+145-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:34:13-49
+146            android:theme="@style/HSTheme" />
+146-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:35:13-43
+147        <activity
+147-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:36:9-40:46
+148            android:name="co.hyperverge.hypersnapsdk.activities.HVFaceInstructionActivity"
+148-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:37:13-91
+149            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+149-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:38:13-175
+150            android:screenOrientation="portrait"
+150-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:39:13-49
+151            android:theme="@style/HSTheme" />
+151-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:40:13-43
+152        <activity
+152-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:41:9-45:46
+153            android:name="co.hyperverge.hypersnapsdk.activities.HVFaceActivity"
+153-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:42:13-80
+154            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+154-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:43:13-175
+155            android:screenOrientation="portrait"
+155-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:44:13-49
+156            android:theme="@style/HSTheme" />
+156-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:45:13-43
+157        <activity
+157-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:46:9-50:46
+158            android:name="co.hyperverge.hypersnapsdk.activities.HVDocReviewActivity"
+158-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:47:13-85
+159            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+159-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:48:13-175
+160            android:screenOrientation="portrait"
+160-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:49:13-49
+161            android:theme="@style/HSTheme" />
+161-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:50:13-43
+162        <activity
+162-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:51:9-54:46
+163            android:name="co.hyperverge.hypersnapsdk.activities.HVQRScannerActivityInternal"
+163-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:52:13-93
+164            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode|colorMode|fontWeightAdjustment"
+164-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:53:13-175
+165            android:theme="@style/HSTheme" />
+165-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:54:13-43
+166
+167        <meta-data
+167-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:56:9-58:39
+168            android:name="com.google.android.gms.vision.DEPENDENCIES"
+168-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:57:13-70
+169            android:value="barcode" /> <!-- <service -->
+169-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:58:13-36
+170        <!-- android:name=".analytics.mixpanel.network.MixPanelIntentService" -->
+171        <!-- android:exported="false" -->
+172        <!-- android:permission="android.permission.BIND_JOB_SERVICE" /> -->
+173        <meta-data
+173-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:65:9-67:36
+174            android:name="com.google.mlkit.vision.DEPENDENCIES"
+174-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:66:13-64
+175            android:value="face" />
+175-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:67:13-33
+176        <meta-data
+176-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:68:9-70:57
+177            android:name="preloaded_fonts"
+177-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:69:13-43
+178            android:resource="@array/preloaded_fonts" /> <!-- todo check if we or clients can remove this (Phase 2) -->
+178-->[co.hyperverge:hypersnapsdk:4.30.0] /Users/akshayah/.gradle/caches/transforms-4/4d7b746df8c5c4394f13615a867f5d3c/transformed/jetified-hypersnapsdk-4.30.0/AndroidManifest.xml:70:13-54
+179        <meta-data
+179-->[co.hyperverge:crashguardsdk:2.0.6] /Users/akshayah/.gradle/caches/transforms-4/e0431f29cd13b2507122ac015d7fd885/transformed/jetified-crashguardsdk-2.0.6/AndroidManifest.xml:14:9-16:37
+180            android:name="io.sentry.auto-init"
+180-->[co.hyperverge:crashguardsdk:2.0.6] /Users/akshayah/.gradle/caches/transforms-4/e0431f29cd13b2507122ac015d7fd885/transformed/jetified-crashguardsdk-2.0.6/AndroidManifest.xml:15:13-47
+181            android:value="false" />
+181-->[co.hyperverge:crashguardsdk:2.0.6] /Users/akshayah/.gradle/caches/transforms-4/e0431f29cd13b2507122ac015d7fd885/transformed/jetified-crashguardsdk-2.0.6/AndroidManifest.xml:16:13-34
+182
+183        <service
+183-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/akshayah/.gradle/caches/transforms-4/88fff33dc8241306a32746b43564062f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+184            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+184-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/akshayah/.gradle/caches/transforms-4/88fff33dc8241306a32746b43564062f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+185            android:directBootAware="true"
+185-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
+186            android:exported="false" >
+186-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/akshayah/.gradle/caches/transforms-4/88fff33dc8241306a32746b43564062f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+187            <meta-data
+187-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/akshayah/.gradle/caches/transforms-4/88fff33dc8241306a32746b43564062f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+188                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+188-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/akshayah/.gradle/caches/transforms-4/88fff33dc8241306a32746b43564062f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/akshayah/.gradle/caches/transforms-4/88fff33dc8241306a32746b43564062f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+190            <meta-data
+190-->[com.google.mlkit:vision-common:17.1.0] /Users/akshayah/.gradle/caches/transforms-4/330856018c9cc3c9e1a8a5a5e215b146/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+191                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+191-->[com.google.mlkit:vision-common:17.1.0] /Users/akshayah/.gradle/caches/transforms-4/330856018c9cc3c9e1a8a5a5e215b146/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.mlkit:vision-common:17.1.0] /Users/akshayah/.gradle/caches/transforms-4/330856018c9cc3c9e1a8a5a5e215b146/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
+193            <meta-data
+193-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
+194                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+194-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
+196        </service>
+197
+198        <provider
+198-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
+199            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+199-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
+200            android:authorities="com.hkycrn.mlkitinitprovider"
+200-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
+201            android:exported="false"
+201-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
+202            android:initOrder="99" />
+202-->[com.google.mlkit:common:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/9aa3804c0932fe5cb18950bdb8fda603/transformed/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
+203
+204        <activity
+204-->[com.google.android.gms:play-services-base:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/593c5914d382efd8312eed9cabef6e79/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+205            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+205-->[com.google.android.gms:play-services-base:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/593c5914d382efd8312eed9cabef6e79/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-base:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/593c5914d382efd8312eed9cabef6e79/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.google.android.gms:play-services-base:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/593c5914d382efd8312eed9cabef6e79/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+208
+209        <meta-data
+209-->[com.google.android.gms:play-services-basement:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/8ba81a856a8523a88ccdee19fdde6118/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+210            android:name="com.google.android.gms.version"
+210-->[com.google.android.gms:play-services-basement:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/8ba81a856a8523a88ccdee19fdde6118/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+211            android:value="@integer/google_play_services_version" />
+211-->[com.google.android.gms:play-services-basement:18.1.0] /Users/akshayah/.gradle/caches/transforms-4/8ba81a856a8523a88ccdee19fdde6118/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+212
+213        <provider
+213-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+214            android:name="androidx.startup.InitializationProvider"
+214-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+215            android:authorities="com.hkycrn.androidx-startup"
+215-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+216            android:exported="false" >
+216-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+217            <meta-data
+217-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+218                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+218-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+219                android:value="androidx.startup" />
+219-->[androidx.emoji2:emoji2:1.2.0] /Users/akshayah/.gradle/caches/transforms-4/8743deedc4742e0e6bcce758a6861c01/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+220            <meta-data
+220-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/akshayah/.gradle/caches/transforms-4/38cad588854febaf48afc07b790db158/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+221                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+221-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/akshayah/.gradle/caches/transforms-4/38cad588854febaf48afc07b790db158/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+222                android:value="androidx.startup" />
+222-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/akshayah/.gradle/caches/transforms-4/38cad588854febaf48afc07b790db158/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+223            <meta-data
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+224                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+225                android:value="androidx.startup" />
+225-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+226        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+227        <provider
+227-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:12:9-15:40
+228            android:name="io.sentry.android.core.SentryInitProvider"
+228-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:13:13-69
+229            android:authorities="com.hkycrn.SentryInitProvider"
+229-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:14:13-70
+230            android:exported="false" />
+230-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:15:13-37
+231        <provider
+231-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:16:9-20:39
+232            android:name="io.sentry.android.core.SentryPerformanceProvider"
+232-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:17:13-76
+233            android:authorities="com.hkycrn.SentryPerformanceProvider"
+233-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:18:13-77
+234            android:exported="false"
+234-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:19:13-37
+235            android:initOrder="200" />
+235-->[io.sentry:sentry-android-core:6.30.0] /Users/akshayah/.gradle/caches/transforms-4/0d9732e8082edb538a14188f8578d976/transformed/jetified-sentry-android-core-6.30.0/AndroidManifest.xml:20:13-36
+236        <provider
+236-->[com.squareup.picasso:picasso:2.8] /Users/akshayah/.gradle/caches/transforms-4/c2a82bd2d78f8f55219bc1e63d050c01/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+237            android:name="com.squareup.picasso.PicassoProvider"
+237-->[com.squareup.picasso:picasso:2.8] /Users/akshayah/.gradle/caches/transforms-4/c2a82bd2d78f8f55219bc1e63d050c01/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+238            android:authorities="com.hkycrn.com.squareup.picasso"
+238-->[com.squareup.picasso:picasso:2.8] /Users/akshayah/.gradle/caches/transforms-4/c2a82bd2d78f8f55219bc1e63d050c01/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+239            android:exported="false" />
+239-->[com.squareup.picasso:picasso:2.8] /Users/akshayah/.gradle/caches/transforms-4/c2a82bd2d78f8f55219bc1e63d050c01/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+240
+241        <receiver
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+242            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+243            android:directBootAware="false"
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+244            android:enabled="true"
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+245            android:exported="true"
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+246            android:permission="android.permission.DUMP" >
+246-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+248                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+249            </intent-filter>
+250            <intent-filter>
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+251                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+252            </intent-filter>
+253            <intent-filter>
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+254                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+255            </intent-filter>
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+257                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshayah/.gradle/caches/transforms-4/171cd0aec2071f66959773c1d9f695da/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+258            </intent-filter>
+259        </receiver>
+260
+261        <service
+261-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/akshayah/.gradle/caches/transforms-4/b11495de05afa735aa2c4d9c676d0a06/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+262            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+262-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/akshayah/.gradle/caches/transforms-4/b11495de05afa735aa2c4d9c676d0a06/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+263            android:exported="false" >
+263-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/akshayah/.gradle/caches/transforms-4/b11495de05afa735aa2c4d9c676d0a06/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+264            <meta-data
+264-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/akshayah/.gradle/caches/transforms-4/b11495de05afa735aa2c4d9c676d0a06/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+265                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+265-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/akshayah/.gradle/caches/transforms-4/b11495de05afa735aa2c4d9c676d0a06/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+266                android:value="cct" />
+266-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/akshayah/.gradle/caches/transforms-4/b11495de05afa735aa2c4d9c676d0a06/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+267        </service>
+268        <service
+268-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+269            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+269-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+270            android:exported="false"
+270-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+271            android:permission="android.permission.BIND_JOB_SERVICE" >
+271-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+272        </service>
+273
+274        <receiver
+274-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+275            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+275-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+276            android:exported="false" />
+276-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/akshayah/.gradle/caches/transforms-4/7465baa520a7d7926e35ff142462dd41/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+277
+278        <meta-data
+278-->[com.facebook.soloader:soloader:0.10.5] /Users/akshayah/.gradle/caches/transforms-4/fbc930de40b9c052bbd84ff04308e919/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+279            android:name="com.facebook.soloader.enabled"
+279-->[com.facebook.soloader:soloader:0.10.5] /Users/akshayah/.gradle/caches/transforms-4/fbc930de40b9c052bbd84ff04308e919/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+280            android:value="false" />
+280-->[com.facebook.soloader:soloader:0.10.5] /Users/akshayah/.gradle/caches/transforms-4/fbc930de40b9c052bbd84ff04308e919/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+281    </application>
+282
+283</manifest>

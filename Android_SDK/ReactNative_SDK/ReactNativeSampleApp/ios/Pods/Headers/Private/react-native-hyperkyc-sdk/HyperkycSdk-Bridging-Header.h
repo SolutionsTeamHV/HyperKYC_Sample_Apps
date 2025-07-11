@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-hyperkyc-sdk/ios/HyperkycSdk-Bridging-Header.h

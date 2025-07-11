@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.hkycrn.app-mergeDebugResources-60:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/Users/akshayah/.gradle/caches/transforms-3/dde8ccf97a33c8dc19a39fa8a398cb59/transformed/jetified-hypersnapsdk-5.0.2/res/values-v29/values-v29.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "563"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "479"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+module react_native_hyperkyc_sdk {
+  umbrella header "react-native-hyperkyc-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

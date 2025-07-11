@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-hkycrn-hkycrnTests/Pods-hkycrn-hkycrnTests-resources.sh
+${PODS_ROOT}/HyperKYC/Core/HyperKYCResources.bundle
+${PODS_ROOT}/HyperSnapSDK/Core/HVResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle

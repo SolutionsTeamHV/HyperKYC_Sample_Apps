@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hk_vs_large_padding">32dp</dimen>
+    <dimen name="hk_vs_small_padding">16dp</dimen>
+    <dimen name="hk_vs_statement_height">100dp</dimen>
+    <dimen name="hk_vs_top_margin">56dp</dimen>
+</resources>

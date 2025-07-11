@@ -1,0 +1,30 @@
+{
+  "name": "react-native-hyperkyc-sdk",
+  "version": "0.40.1",
+  "summary": "React Native wrapper for HyperKYC SDK",
+  "homepage": "http://github.com/hyperverge/react-native-hyperkyc-sdk#readme",
+  "license": "MIT",
+  "authors": "nivedita <nivedita@hyperverge.co> (http://github.com/hyperverge)",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "http://github.com/hyperverge/react-native-hyperkyc-sdk.git",
+    "tag": "0.40.1"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "static_framework": true,
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "HyperKYC": [
+      "0.40.0"
+    ]
+  },
+  "preserve_paths": "HyperKYC.framework",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-framework HyperKYC"
+  },
+  "vendored_frameworks": "HyperKYC.framework"
+}

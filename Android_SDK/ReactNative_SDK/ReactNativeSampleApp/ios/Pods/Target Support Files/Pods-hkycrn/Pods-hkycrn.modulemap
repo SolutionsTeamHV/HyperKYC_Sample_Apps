@@ -1,0 +1,6 @@
+module Pods_hkycrn {
+  umbrella header "Pods-hkycrn-umbrella.h"
+
+  export *
+  module * { export * }
+}
