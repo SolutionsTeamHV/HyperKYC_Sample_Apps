@@ -1,0 +1,68 @@
+PODS:
+  - HyperKYC (0.39.1):
+    - HyperKYC/Core (= 0.39.1)
+  - HyperKYC/Core (0.39.1):
+    - HyperSnapSDK (= 4.31.1)
+    - "MaterialComponents/TextControls+OutlinedTextAreas"
+    - "MaterialComponents/TextControls+OutlinedTextFields"
+  - HyperSnapSDK (4.31.1):
+    - HyperSnapSDK/Core (= 4.31.1)
+  - HyperSnapSDK/Core (4.31.1)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextAreas (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextAreas (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextAreas"
+  - "MaterialComponents/TextControls+OutlinedTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MDFInternationalization (3.0.0)
+
+DEPENDENCIES:
+  - HyperKYC (~> 0.39.0)
+
+SPEC REPOS:
+  trunk:
+    - HyperKYC
+    - HyperSnapSDK
+    - MaterialComponents
+    - MDFInternationalization
+
+SPEC CHECKSUMS:
+  HyperKYC: 8191a4dbca4eb2366f1c294cca6a5eac6f62b0f3
+  HyperSnapSDK: 7d8bf131bf34da9c2c03f531f3c137e1693d0458
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+
+PODFILE CHECKSUM: 14422857732612ca892ef373adc2a631b77050b6
+
+COCOAPODS: 1.16.2
