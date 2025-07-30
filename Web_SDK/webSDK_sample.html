@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script
+        src="https://hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com/hyperverge-web-sdk@<latest sdk version>/src/sdk.min.js"></script> <!-- Insert latest SDK version here -->
+</head>
+
+<body>
+    <button type="button" onclick="startOnboarding();">
+        Start Onboarding
+    </button>
+    <script>
+
+
+            window.HyperKYCModule.prefetch({
+            appId : "", 
+            workflowId : ""}
+            )
+
+        function startOnboarding() {
+            const accessToken = ""; //Enter Access token here
+
+            const uniqueId = HyperKYCModule.createUniqueId();
+
+            const hyperKycConfig = new HyperKycConfig(
+                accessToken,
+                "", //workflowId
+                "" //transactionId
+            );
+
+            hyperKycConfig.setUniqueId(uniqueId); // Enter unique Id (Only required if serverside resume is enabled in workflow)
+
+            hyperKycConfig.setDefaultLangCode("en"); //Same language code that has been used on the workflow
+
+            const inputs = {
+                field : value // Fill in the inputs if any
+            }; 
+
+            hyperKycConfig.setInputs(inputs); //Pass the inputs object to SDK
+            
+            hyperKycConfig.setUseLocation({useLocation: "true"}) //Add if the user location need to be accessed by the flow
+
+            HyperKYCModule.launch(hyperKycConfig, handler);
+        }
+        
+
+        const handler = (HyperKycResult) => {
+            if (HyperKycResult.Cancelled) {
+                console.log("User cancelled the operation.");
+            } else if (HyperKycResult.Failure) {
+                console.log("Operation failed: " + JSON.stringify(HyperKycResult.Failure));
+            } else if (HyperKycResult.Success) {
+                console.log("Success: " + JSON.stringify(HyperKycResult.Success));
+            }
+        };
+    </script>
+</body>
+
+</html>
