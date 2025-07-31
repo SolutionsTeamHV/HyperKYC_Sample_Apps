@@ -8,7 +8,7 @@
 - Angular framework
     - Source : https://angular.dev/installation
 
-## Integration steps :
+## Integration steps : 
 
 1. Create a new angular project in the CLI using the below command and navigate to your directory.
     
