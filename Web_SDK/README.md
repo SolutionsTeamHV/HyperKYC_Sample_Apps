@@ -1,6 +1,6 @@
 ### WEB SDK INTEGRATION
 
-### Pre-requisites :
+### Pre-requisites : 
 
 - VS code editor
     - Version : Any
