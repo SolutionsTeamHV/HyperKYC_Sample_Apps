@@ -83,18 +83,12 @@ window.HyperKYCModule.launch(config, handler);
 
 ---
 
-## 🛑 Known Issue with Web SDK in Cordova (LIC Case)
+## 🛑 Known Issue with Web SDK in Cordova
 
 ### ❌ Problem:
 
 * In a Cordova app (especially on Android/iOS), the **Digilocker** module opens in a new tab via Chrome.
-* Chrome throws a **429 Too Many Requests** error.
 * Returning to the app keeps it stuck at “waiting” for Digilocker completion.
-
-### 📸 Error Screenshot:
-
-> (Attach the image of 429 error page here)
-
 ---
 
 ## ✅ Solution: Switch to Link-KYC Integration
