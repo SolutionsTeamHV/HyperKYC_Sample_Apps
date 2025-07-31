@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script
+        src="https://hv-camera-web-sg.s3-ap-southeast-1.amazonaws.com/hyperverge-web-sdk@<Insert latest version>/src/sdk.min.js"></script>
+</head>
+
+<body>
+    <div>
+        
+        <button type="button" align:center id="kyc-button" onclick="starOnboarding();">
+            Start Onboarding
+        </button>
+        <h2 id="resultobj"></h2>
+    </div>
+</body>
+<script>
+    function starOnboarding() {
+        const transactionId = "";//Enter transaction ID here
+        const accessToken = "";//Enter access token here
+        const hyperKycConfig = new HyperKycConfig(
+            accessToken,
+            "",//workflowID goes here
+            transactionId
+        );
+
+        hyperKycConfig.setInputs({
+            "InputKey": "Value"
+        }); //Add the Inputs if necessary
+
+        hyperKycConfig.setUniqueId(""); // Unique Id
+
+        hyperKycConfig.setUseLocation({useLocation: "true"})
+
+        HyperKYCModule.launch(hyperKycConfig, handler);
+
+    }
+    const handler = (HyperKycResult) => {
+        if (HyperKycResult.Cancelled) {
+            console.log(HyperKycResult.Cancelled);
+            document.getElementById("resultobj").innerHTML="user_cancelled";
+        } else if (HyperKycResult.Failure) {
+            console.log(HyperKycResult.Failure);
+            document.getElementById("resultobj").innerHTML="auto_declined";
+        } else if (HyperKycResult.Success) {
+            console.log(HyperKycResult.Success);
+            document.getElementById("resultobj").innerHTML="auto_approved";
+        }
+        else{
+            console.log(HyperKycResult);
+            document.getElementById("resultobj").innerHTML=HyperKycResult.status;
+        }
+    }
+</script>
+</html>
