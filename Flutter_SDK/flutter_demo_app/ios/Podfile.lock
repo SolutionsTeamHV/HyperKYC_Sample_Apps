@@ -1,0 +1,81 @@
+PODS:
+  - Flutter (1.0.0)
+  - HyperKYC (0.43.0):
+    - HyperKYC/Core (= 0.43.0)
+  - HyperKYC/Core (0.43.0):
+    - HyperSnapSDK (= 4.35.0)
+    - "MaterialComponents/TextControls+OutlinedTextAreas"
+    - "MaterialComponents/TextControls+OutlinedTextFields"
+  - hyperkyc_flutter (0.0.1):
+    - Flutter
+    - HyperKYC (= 0.43.0)
+  - HyperSnapSDK (4.35.0):
+    - HyperSnapSDK/Core (= 4.35.0)
+  - HyperSnapSDK/Core (4.35.0)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextAreas (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextAreas (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextAreas"
+  - "MaterialComponents/TextControls+OutlinedTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MDFInternationalization (3.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - hyperkyc_flutter (from `.symlinks/plugins/hyperkyc_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - HyperKYC
+    - HyperSnapSDK
+    - MaterialComponents
+    - MDFInternationalization
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  hyperkyc_flutter:
+    :path: ".symlinks/plugins/hyperkyc_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  HyperKYC: db22786308ab68b85fe1bc8c46b4de51435c10c0
+  hyperkyc_flutter: de2ba75a790196bfe9f1a3feb714898f9a61fe2f
+  HyperSnapSDK: d5f542ef7b7a85c50492ca422f23598d7811fd97
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
